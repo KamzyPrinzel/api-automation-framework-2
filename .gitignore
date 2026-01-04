@@ -1,0 +1,46 @@
+
+---
+
+## 📄 `.gitignore`
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env/
+.env.*
+
+# PyTest
+.pytest_cache/
+.cache/
+
+# Allure
+allure-results/
+allure-report/
+
+# Logs
+*.log
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+htmlcov/
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
